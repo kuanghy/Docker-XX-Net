@@ -40,4 +40,4 @@ RUN chmod +x /opt/XX-Net/start
 
 # Commands when creating a new container
 WORKDIR /opt/XX-Net/
-CMD ["sh", "/opt/XX-Net/start"]
+CMD ["/bin/bash", "/opt/XX-Net/start"]
